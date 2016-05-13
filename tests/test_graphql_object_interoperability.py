@@ -1,6 +1,6 @@
 from collections import namedtuple
-from graphql.core import graphql
-from graphql.core.type import GraphQLObjectType, GraphQLField, GraphQLString
+from graphql import graphql
+from graphql.type import GraphQLObjectType, GraphQLField, GraphQLString
 from epoxy.registry import TypeRegistry
 
 

@@ -1,6 +1,6 @@
-from graphql.core import graphql
-from graphql.core.type import GraphQLArgument, GraphQLInputObjectType, GraphQLString
-from graphql.core.type.scalars import GraphQLInt
+from graphql import graphql
+from graphql.type import GraphQLArgument, GraphQLInputObjectType, GraphQLString
+from graphql.type.scalars import GraphQLInt
 from epoxy import TypeRegistry
 
 

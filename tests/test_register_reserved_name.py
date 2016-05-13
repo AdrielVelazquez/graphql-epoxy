@@ -1,5 +1,5 @@
-from graphql.core.type import GraphQLField, GraphQLObjectType
-from graphql.core.type import GraphQLString
+from graphql.type import GraphQLField, GraphQLObjectType
+from graphql.type import GraphQLString
 from epoxy import TypeRegistry
 from pytest import raises
 

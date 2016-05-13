@@ -1,4 +1,4 @@
-from graphql.core.type.definition import GraphQLObjectType
+from graphql.type.definition import GraphQLObjectType
 import six
 from ...bases.mutation import MutationBase
 from .connections import connection_args

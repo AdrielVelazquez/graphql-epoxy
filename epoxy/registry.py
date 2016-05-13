@@ -2,7 +2,7 @@ from collections import OrderedDict, defaultdict
 from enum import Enum
 from functools import partial
 from operator import itemgetter
-from graphql.core.type import (
+from graphql.type import (
     GraphQLBoolean,
     GraphQLEnumType,
     GraphQLFloat,
@@ -16,7 +16,7 @@ from graphql.core.type import (
     GraphQLString,
     GraphQLUnionType
 )
-from graphql.core.type.definition import GraphQLType, get_named_type
+from graphql.type.definition import GraphQLType, get_named_type
 import six
 from .bases.class_type_creator import ClassTypeCreator
 from .bases.input_type import InputTypeBase
@@ -320,13 +320,6 @@ class TypeRegistry(object):
 
             if type in self._added_impl_types:
                 continue
-
-            self._added_impl_types.add(type)
-            for interface in type.get_interfaces():
-                if type in interface._impls:
-                    continue
-
-                interface._impls.append(type)
 
     def Schema(self, query, mutation=None, subscription=None):
         query = self[query]()

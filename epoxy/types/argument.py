@@ -1,4 +1,4 @@
-from graphql.core.type import GraphQLArgument
+from graphql.type import GraphQLArgument
 from ..utils.gen_id import gen_id
 
 

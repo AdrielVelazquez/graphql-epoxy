@@ -1,5 +1,5 @@
 from .schema import StarWarsSchema
-from graphql.core import graphql
+from graphql import graphql
 
 
 def test_hero_name_query():

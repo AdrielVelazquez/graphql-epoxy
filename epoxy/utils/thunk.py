@@ -1,5 +1,5 @@
 import copy
-from graphql.core.type.definition import GraphQLList, GraphQLNonNull
+from graphql.type.definition import GraphQLList, GraphQLNonNull
 from .gen_id import gen_id
 from .maybe_callable import maybe_callable
 

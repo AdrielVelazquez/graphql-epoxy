@@ -1,4 +1,4 @@
-from graphql.core.type.definition import GraphQLArgument
+from graphql.type.definition import GraphQLArgument
 from epoxy.registry import TypeRegistry
 import enum
 

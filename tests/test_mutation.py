@@ -1,6 +1,6 @@
 import operator
 from functools import reduce
-from graphql.core import graphql
+from graphql import graphql
 from epoxy import TypeRegistry
 
 

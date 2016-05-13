@@ -1,4 +1,4 @@
-from graphql.core import graphql
+from graphql import graphql
 from epoxy.contrib.relay import RelayMixin
 from epoxy.contrib.relay.data_source.memory import InMemoryDataSource
 from epoxy.contrib.relay.utils import base64

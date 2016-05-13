@@ -1,6 +1,6 @@
 import functools
-from graphql.core.type import GraphQLField, GraphQLNonNull
-from graphql.core.type.definition import GraphQLArgument
+from graphql.type import GraphQLField, GraphQLNonNull
+from graphql.type.definition import GraphQLArgument
 
 
 class MutationMeta(type):

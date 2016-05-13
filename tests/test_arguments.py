@@ -1,7 +1,7 @@
 from collections import OrderedDict
 from pytest import raises
-from graphql.core import graphql
-from graphql.core.type import GraphQLString, GraphQLInt, GraphQLID, GraphQLNonNull
+from graphql import graphql
+from graphql.type import GraphQLString, GraphQLInt, GraphQLID, GraphQLNonNull
 from epoxy.registry import TypeRegistry
 from epoxy.types.argument import Argument
 

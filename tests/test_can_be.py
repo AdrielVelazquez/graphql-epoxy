@@ -1,4 +1,4 @@
-from graphql.core import graphql
+from graphql import graphql
 from epoxy import TypeRegistry
 
 

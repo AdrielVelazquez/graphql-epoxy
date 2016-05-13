@@ -1,4 +1,4 @@
-from graphql.core.type.definition import GraphQLUnionType
+from graphql.type.definition import GraphQLUnionType
 
 
 class UnionMeta(type):

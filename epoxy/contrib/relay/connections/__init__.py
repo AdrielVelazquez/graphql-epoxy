@@ -1,4 +1,4 @@
-from graphql.core.type import GraphQLInt, GraphQLString
+from graphql.type import GraphQLInt, GraphQLString
 
 from ....types.argument import Argument
 

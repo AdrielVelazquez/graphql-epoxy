@@ -1,4 +1,4 @@
-from graphql.core.type.definition import GraphQLType
+from graphql.type.definition import GraphQLType
 
 
 def maybe_t(obj):

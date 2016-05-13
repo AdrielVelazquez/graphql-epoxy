@@ -1,7 +1,7 @@
 import datetime
-from graphql.core import graphql
-from graphql.core.language import ast
-from graphql.core.type import GraphQLScalarType
+from graphql import graphql
+from graphql.language import ast
+from graphql.type import GraphQLScalarType
 from epoxy.registry import TypeRegistry
 
 

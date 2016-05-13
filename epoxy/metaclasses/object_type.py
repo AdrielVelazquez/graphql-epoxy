@@ -1,6 +1,6 @@
 from collections import OrderedDict
 from functools import partial
-from graphql.core.type import GraphQLObjectType
+from graphql.type import GraphQLObjectType
 from ..utils.get_declared_fields import get_declared_fields
 from ..utils.make_default_resolver import make_default_resolver
 from ..utils.no_implementation_registration import no_implementation_registration

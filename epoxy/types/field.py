@@ -1,5 +1,5 @@
 from collections import OrderedDict
-from graphql.core.type import GraphQLField, GraphQLInputObjectField
+from graphql.type import GraphQLField, GraphQLInputObjectField
 from ..types.argument import Argument
 from ..utils.gen_id import gen_id
 from ..utils.thunk import TypeThunk
